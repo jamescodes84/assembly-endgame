@@ -15,10 +15,32 @@ body {
 
 .header {
   text-align:center;
-  text-shadow: #d50e0e;
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #F9F4DA;
 }
 
 .header-subtext  {
   display: grid;
   text-align: center;
+  font-size: 0.875rem;
+  max-width: 350px;
+  color: #8E8E8E;
+  
+
+}
+
+.endgame-banner-win {
+  text-align: center;
+  background-color: green;
+  width: 100%;
+  padding: .3rem;
+}
+
+.endgame-banner-lose {
+  text-align: center;
+  background-color: red;
+  width: 100%;
+  padding: .3rem;
+  
 }
