@@ -29,7 +29,9 @@ body {
   
 
 }
-
+.endgame-header {
+  background-color: green;
+}
 .endgame-banner-win {
   text-align: center;
   background-color: green;
@@ -43,4 +45,9 @@ body {
   width: 100%;
   padding: .3rem;
   
+}
+
+.endgame-banner-empty {
+  width:100%;
+  height:58px;
 }
