@@ -2,7 +2,7 @@ import { languages } from "../../languages"
 
 export default function LanguageChips() {
    
-    console.log(languages)
+    
     const languageElements = languages.map(language => {
 
         const styles = {
