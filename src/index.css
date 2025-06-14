@@ -30,7 +30,7 @@ body {
 
 }
 
-.endgame-banner-win {
+.gamestatus-banner-win {
   text-align: center;
   background-color: #10A95B;
   width: 100%;
@@ -39,7 +39,7 @@ body {
 
 }
 
-.endgame-banner-lose {
+.gamestatus-banner-lose {
   text-align: center;
   background-color: #BA2A2A;
   width: 100%;
@@ -48,7 +48,7 @@ body {
   
 }
 
-.endgame-banner-empty {
+.gamestatus-banner-empty {
   width:100%;
   height:58px;
 }

@@ -1,6 +1,6 @@
 import React from "react"
 import Header from "./components/Header"
-import EndGameBanner from "./components/EndGameBanner"
+import GameStatusBanner from "./components/GameStatusBanner"
 
 
 export default function App() {
@@ -8,7 +8,7 @@ export default function App() {
     return (
         <main>
             <Header />
-            <EndGameBanner />
+            <GameStatusBanner />
           
         </main>
     )
