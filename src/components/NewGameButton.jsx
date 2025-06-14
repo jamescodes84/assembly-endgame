@@ -1,5 +1,11 @@
 export default function NewGameButton(){
+    function handleClick () {
+        console.log("button clicked")
+    }
     return(
-        <p>New Game Button</p>
+        <div className="new-game-button">
+            <button onClick={handleClick} >New Game</button>
+        </div>
+        
     )
 }
