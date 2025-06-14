@@ -29,21 +29,22 @@ body {
   
 
 }
-.endgame-header {
-  background-color: green;
-}
+
 .endgame-banner-win {
   text-align: center;
-  background-color: green;
+  background-color: #10A95B;
   width: 100%;
   padding: .3rem;
+  color: #F9F4DA;
+
 }
 
 .endgame-banner-lose {
   text-align: center;
-  background-color: red;
+  background-color: #BA2A2A;
   width: 100%;
   padding: .3rem;
+   color: #F9F4DA;
   
 }
 
