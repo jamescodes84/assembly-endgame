@@ -68,7 +68,10 @@ body {
 .chip {
   border-radius: 3px;
   padding: 4.5px;
-
+   height: 40px;
+   justify-content: center;
+   align-items: center;
+   display: flex;
 }
 
 .current-word {
@@ -77,8 +80,8 @@ body {
   margin-bottom: 1.5rem;
 }
 .current-word > span {
-  height: 40px;
-  width: 40px;
+  height: 50px;
+  width: 50px;
   background-color: #323232;
   display:flex;
   justify-content: center;

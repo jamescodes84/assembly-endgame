@@ -25,7 +25,7 @@ export default function App() {
     let letterArraySpans = letterArray.map((letter,index) => {    
       return (<span key={index}>{letter.toUpperCase()}</span>)
     })
-    console.log(letterArraySpans)
+    
 
     function handleLetterClick(buttonLetter) {
       
